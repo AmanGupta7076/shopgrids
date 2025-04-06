@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+html{
+    font-size: 20px;
+}
+
+#hey {
+    /* background-color: yellow; */
+    /* font-size: .8rem; */
+}
+.hello{
+    background-image: url(../images/hero/slider-bnr.jpg);
+    width: 100%;
+    height: 240px;
+    background-repeat: no-repeat;
+    padding: 60px 20px 0 50px;
+    padding-top: 60px;
+    background-size: cover;
+}
+
+#hp{
+    background-color: #081828;
+    color: #888888;
+    margin-top: 15px;
+    padding: 30px 20px;
+}
+#hp button{
+    width: 130px;
+    margin-left: 20px;
+}
+#hp h4, #hp p{
+    color: #fff;
+}
+.image, .image-1{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-1{
+    background-image: url(../images/hero/slider-bg1.jpg);
+}
+.image
+{
+    background-image:url(../images/hero/slider-bg2.jpg);
+}
+#bunny, #bunny ul li{
+    height: 55px;
+    
+}
+#maddy i{
+    margin-top: 13px;
+}
+#jenny{
+    padding: 120px 0 0 80px !important;
+}
+#maddy, #navbarDropdown{
+    /* padding: 15px 0; */
+    text-align: center;
+}
+#matt ul li, #matt p, #mat ul li, #mat p{
+    padding-right: 15px;
+}
+nav li{
+    padding-right: 20px;
+    /* color: #000; */
+}
+nav li a{
+    color: #000 !important;
+}
+#dropdownMenuButton1{
+    margin-top: 15px;
+}
+#matt ul{
+    margin-top: 20px;
+}
+#matt ul li i, #mat ul li i{
+    border: 1px solid #888888;
+    border-radius: 100%;
+    padding: 7px;
+}
+nav li .active{
+    color: #0167f3 !important;
+}
+#asus{
+    padding-top: 20px;
+}
+#asus button{
+    border-radius: 100px;
+    border: 1px solid #081828;
+}
+#jenny b, #jenny h3, #robert b{
+    font-size: 1.5rem;
+}
+#jenny p{
+    font-size: .8rem;
+}
+#aaa h6, .price span{
+    color: #0167f3;
+}
+#nav-link a:hover, #matt ul li i:hover, #asus button:hover, #mat ul li i:hover{
+    background: #0167f3;
+    color: #fff;
+}
+#doms a:hover{
+    color: #0167f3 !important;
+}
+#hp button:hover{
+    color: #fff !important;
+    background-color: #0167f3 !important;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 0% !important;
+    top: 40% !important;
+    height: 85px;
+    background-color: #0167f3 !important;
+    border-radius: 5px;
+}
+.carousel:hover .carousel-control-prev, .carousel:hover .carousel-control-next{
+    width: 5% !important;
+    transition: .2s;
+}
+
+/* second section */
+
+.separator_left {
+    width: 70px;
+    height: 3px;
+    background: #0167f3;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+#johnny, #joy{
+    margin: 60px 0;
+}
+#tyler h3{
+    font-size: 0.9rem;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#killer .row{
+    border: 1px solid #888888;
+    margin-bottom: 40px;
+}
+#killer ul li, #joy span{
+    color: #888888;
+}
+#mark p, #sarah p, .pic p,#justin span, #jio p{
+    color: #888888;
+    font-size: .7rem;
+}
+#killer ul li{
+    font-size: .8rem;
+}
+#benq{
+    padding-top: 30px;
+}
+#cabinet ul li, #cabinet a, .time{
+    font-size: .8rem;
+    color: #888888; 
+}
+#general, #general-1{
+    padding: 50px 15px;
+    /* background-color: red; */
+}
+.firm{
+    background-color: #f5f5f5f5;
+}
+
+
+/* third section */
+
+#genelia{
+    background-color: #f5f5f5f5;
+    /* width: 100%; */
+}
+#geneliaa{
+    background-color: #f5f5f5f5;
+    padding: 50px 0;
+}
+.breadcrumb a, .breadcrumb li{
+    color: #888888;
+    text-decoration: none;
+}
+.photo{
+    background-image: url(../images/banner/banner-1-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    padding: 80px 20px;
+    /* background: red; */
+}
+.photo-1{
+    background-image: url(../images/banner/banner-2-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position:center;
+    padding: 80px 20px;
+    /* background: red; */
+}
+
+#emily h5{
+    font-size: 1rem;
+}
+#emily img{
+    padding-top: 50px;
+}
+#mark{
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.mover{
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    background-color: #0167f3;
+    color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: .5s;
+}
+#mark .best:hover .mover, #sarah .best:hover .mover{
+    top: 75%;
+}
+.mover:hover{
+    background-color: #000;
+}
+#mark p, #sarah p{
+    padding-top: 25px;
+}
+#devil{
+    padding: 100px 0;
+}
+.blog-img{
+    text-align: center;
+    background-color: #fff;
+    padding-top: 10px;
+}
+#defaulter, #camel, #jacky{
+    padding: 30px 0;
+}
+#defaulter button:hover, #pie ul li a:hover{
+    color: #fff !important;
+    background-color: #0167f3;
+    border: none;
+}
+#defaulter{
+    background-color: #fff;
+    padding-left: 30px;
+}
+#white a{
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+#camel ul li, .tags a{
+    font-size: 0.8rem;
+    color: #888888;
+    line-height: 2;
+}
+#camel{
+    background-color: #fff;
+}
+.top-widget input{
+    background-color: transparent !important;
+    border: none !important;
+}
+.top-widget .input-group{
+    border: .1px solid #000;
+    border-radius: 5px;
+}
+.tags a{
+    margin-right: 10px;
+    border: 1px solid #888888;
+    padding: 5px;
+    line-height: 3;
+}
+#discover{
+    padding: 80px 40px;
+    background-color: #fff;
+    margin: 100px 0;
+}
+#meta{
+    padding-bottom: 20px;
+}
+#meta button:hover{
+    background-color: #000;
+    color: #fff;
+}
+#helo{
+    padding: 50px 0;
+    background-color: #fff;
+    /* margin-top: 30px; */
+}
+#hell{
+    padding: 20px 0;
+    /* border-bottom: 1px solid #888888; */
+}
+#cartt{
+    padding-top: 50px;
+}
+#cartt span{
+    color: #888888;
+}
+#marks{
+    padding-top: 70px;
+}
+#marks input{
+    width: 40%;
+    margin-left: 100px;
+}
+.best{
+    position: relative;
+    overflow: hidden;
+}
+
+/* fourth section */
+
+
+#robert, #justin,.buddy{
+    margin-top: 100px;
+}
+#robert{
+    margin-bottom: 100px;
+}
+#robert button:hover, .pic button:hover, #jenny button:hover{
+    background-color: #000 !important;
+}
+.shopy:hover{
+    background-color: #0167f3 !important;
+}
+
+/* fifth section */
+
+.pic{
+    background-image: url(../images/banner/banner-3-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+#greshy{
+    padding: 50px 120px;
+}
+#greshy h2{
+    font-size: 2.3rem !important;
+}
+#sarah{
+    background-color: #fff;
+    padding: 10px 10px;
+    margin: 0 0 30px 0;
+    line-height: 2;
+}
+.discount{
+    text-decoration: line-through;
+}
+.pic b{
+    font-size: 1.3rem;
+}
+#sarah ul li{
+    font-size: .7rem;
+}
+.pic button:hover, #robert button:hover, .glass-button:hover, #marks .jeep:hover, .lmao:hover{
+    background-color: #000 !important;
+}
+
+/* sixth section */
+
+#qwerty{
+    padding-bottom: 60px;
+}
+
+/* seventh section */
+
+#marque, #joy{
+    padding: 70px 0;
+}
+.buddy{
+    padding-top: 30px;
+}
+#joy i{
+    font-size: 1.8rem;
+    color: #0167f3;
+}
+#marque img{
+    opacity: .5;
+}
+#marque img:hover{
+    opacity: 1;
+}
+
+/* eighth section */
+
+
+#jio{
+    background-color: #fff;
+    padding: 20px;
+}
+#jio img{
+    padding-bottom: 20px;
+}
+#jio img:hover, #sarah img:hover, #mark img:hover, #devil img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+#jio b:hover{
+    color: #0167f3;
+    transition: .5s;
+}
+
+/* nineth section */
+
+#bat{
+    border: 1px solid #081828;
+    padding: 20px 0;
+}
+#bat:hover{
+    background-color: #fff;
+}
+/* tenth section */
+
+#unique{
+    /* background-color: rgba(2, 2, 43, 0.988); */
+    color: #fff;
+    padding-top: 100px ;
+    background-color: #081828;
+}
+#andy{
+    padding: 50px 0;
+}
+#creation{
+    font-size: 1rem;
+    padding-bottom: 30px;
+}
+#andy a, #andy b,#andy ul li{
+    color: #d6d6d6d6;
+    font-size: .8rem;
+}
+#andy ul li{
+    margin-bottom: 10px;
+}
+#andy h6{
+    text-align: center;
+}
+#ico ul li i{
+    font-size: 1rem;
+}
+#ico ul li{
+    background-color: #ffffff0f;
+    padding: 18px 25px;
+}
+#lenovo h6{
+    font-size: .8rem;
+}
+.fourth i{
+    font-size: 1.8rem;
+    /* position: fixed; */
+}
+#creation button:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+#kit ul li:hover, #killer ul li:hover{
+    color: #0167f3;
+    margin-left: 10px;
+    transition: .5s;
+}
+#ico ul li:hover, #outtline h6:hover, #sarah b:hover, #mark h5:hover, #defaulter h5:hover, #white a:hover, #camel ul li:hover, #cartt b:hover{
+    color: #0167f3;
+}
+#crt i:hover{
+    color: #000 !important; 
+}
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width:1024px){
+
+    #hey{
+        font-size: 0.8rem;
+        padding-top: 5px;
+       }
+       #asus{
+        padding-right: 8px;
+    }
+    #doms{
+        padding-right: 0rem;
+    }
+    #matt p{
+        padding-right: 5px;
+    }
+    #matt ul li{
+        padding-right: 0px;
+    }
+    #tyler h3, #killer ul li{
+        font-size: 0.5rem;
+    }
+    #mat ul li{
+        padding-right: 6px;
+    }
+}
+
+
+ 
+
+@media only screen and (max-width:992px){
+   #hey{
+    font-size: 0.8rem;
+   }
+   #asus{
+    padding-right: 8px;
+   }
+   #doms{
+    font-size: 0.9rem;
+    padding-top: 8px;
+   }
+   #matt ul li, #matt p, #mat ul li, #mat p {
+    padding-right: 0px;
+   }
+   #matt{
+    padding-top: 5px;
+   }
+   .photo, .photo-1{
+    /* background: rgba(255, 255, 255, .5); */
+    /* backdrop-filter: blur(3.5px); */
+   }
+   #lenovo, #mat{
+    text-align: center;
+   }
+   #indian{
+    margin-top: 20px;
+    /* margin-left: 230px; */
+    }
+
+    #andy ul{
+    padding-left: 0px;
+    text-align: left;
+    }
+
+    #andy h6{
+    text-align: left;
+    padding-top: 20px;
+    }
+    #kit .separator_left, #ico .separator_left, #icoo .separator_left{
+    margin: 0px;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width:768px)
+{
+
+ /* first */
+
+    .fz{
+        display: none;
+    }
+    #maddy li a{
+        margin-top: 2px;
+    }
+    .nav-brand img{
+        padding-top: 20px;
+    }
+    #matt ul{
+        font-size: 1.3rem;
+        margin-right: 10px;
+    }
+    #matt p{
+        margin-right: 15px;
+    }
+    #jenny b{
+        font-size: 1rem;
+    }
+    #jenny p{
+        width: 50%;
+    }
+
+/* second */
+
+#killer ul li, #killer h3 {
+    font-size: 0.7rem;
+}
+#killer img{
+    width: 100%;
+}
+
+/* fourth section */
+
+#phto{
+    width: 60%;
+}
+
+/* fifth */
+
+.pic{
+    text-align: right;
+}
+
+/* sixth */
+
+#qwerty img{
+    width: 100%;
+}
+
+/* seventh */
+
+#marque img{
+    width: 100%;
+}
+
+/* eighth */
+
+#india{
+    padding-top: 60px;
+}
+
+/* last */
+
+#lenovo, #mat{
+    text-align: center;
+}
+#indian{
+    margin-top: 20px;
+    margin-left: 230px;
+}
+#andy ul{
+    padding-left: 0px;
+    text-align: left;
+}
+#mat{
+    padding: 10px 0 0 205px;
+}
+#andy h6{
+    text-align: left;
+    padding-top: 20px;
+}
+#kit .separator_left, #ico .separator_left, #icoo .separator_left{
+    margin: 0px;
+}
+
+@media only screen and (max-width:426px){
+    
+    .nav-brand img{
+        width: 50%;
+    }
+    #jenny{
+        padding: 120px 0 0 30px !important;
+    }
+    #jenny b, #jenny h6{
+        font-size: 0.75rem;
+    }
+    .fzz{
+        display: none !important;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    #indian{
+        margin-left: 0px;
+    }
+    #mat{
+        padding: 10px 0 0 60px;
+    }
+    #mat ul li{
+        margin-right: 10px;
+    }
+    #andy, #kit, #lenovo, #andy ul li, #andy h6{
+        text-align: center;
+    }
+    #kit .separator_left, #ico .separator_left, #icoo .separator_left{
+        margin: 0 auto;
+    }
+}
+
+
+}
