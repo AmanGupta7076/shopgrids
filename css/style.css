@@ -659,7 +659,7 @@ ul li{
 @media only screen and (max-width:426px){
     
     .nav-brand img{
-        width: 50%;
+        width: 100%;
     }
     #jenny{
         padding: 120px 0 0 30px !important;
@@ -667,17 +667,44 @@ ul li{
     #jenny b, #jenny h6{
         font-size: 0.75rem;
     }
-    .fzz{
+    .fzz, .bun{
         display: none !important;
     }
-    
-    
-    
-    
-    
-    
-    
-    
+    #matt ul{
+        font-size: 0.9rem;
+    }
+    #matt ul li i{
+        margin-right: 5px;
+    }
+    #asus button{
+        font-size: 1rem;
+       border: none;
+    }
+    .photo, .photo-1{
+        padding: 0px;
+    }
+    #team{
+        padding: 50px 0;
+    }
+    #phto{
+        padding: 50px 0 0 0px;
+        font-size: 0.8rem;
+    }
+    #robert b{
+        font-size: 1.2rem;
+    }
+    .pic{
+        padding: 20px 0;
+    }
+    #outtline .haze{
+        margin-top: 90px;
+    }
+    .clas{
+        margin-top: 70px;
+    }
+    .access{
+        padding-top: 50px;
+    }
     #indian{
         margin-left: 0px;
     }
@@ -685,6 +712,9 @@ ul li{
         padding: 10px 0 0 60px;
     }
     #mat ul li{
+        margin-right: 10px;
+    }
+    #mat p{
         margin-right: 10px;
     }
     #andy, #kit, #lenovo, #andy ul li, #andy h6{
