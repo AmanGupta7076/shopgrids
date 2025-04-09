@@ -727,13 +727,13 @@ ul li{
 }
 
 
-@media only screen and (max-width:379px){
+@media only screen and (max-width:379px) and (min-width:300px){
 
     #jenny b, #jenny h6 {
         font-size: 0.65rem;
     }
     #matt ul {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     #outtline .haze {
@@ -741,7 +741,7 @@ ul li{
     }
 
     #mat {
-        padding: 10px 0 0 30px;
+        padding: 10px 0 0 10px;
     }
 }
 
