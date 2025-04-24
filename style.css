@@ -21,7 +21,28 @@ html{
     padding-top: 60px;
     background-size: cover;
 }
-
+#plus {
+    border-left: 1px solid #eee;
+}
+#tiger{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+#maddy{
+    border: 1px solid #eee;
+    padding-bottom: 5px;
+}
+#abcd ul li{
+    border-right: 2px solid #eee !important;
+    padding-right: 10px;
+}
+#abcd input{
+    border: none;
+}
+#efgh{
+    margin-top: 15px !important;
+}
 #hp{
     background-color: #081828;
     color: #888888;
@@ -699,22 +720,28 @@ ul li{
         padding: 0px;
     }
     .photo {
-        background-position: right;
-        width: 400px;
+        background-position: center;
+        width: 395px;
     }
-    #phtto {
+    /* #phtto {
         width: 260px;
         padding: 20px 10px;
+    } */
+    #phtto, #phto {
+        width: 195px;
+        padding: 20px 10px;
+        font-size: 0.5rem;
     }
+    
     #team{
         padding: 50px 0;
     }
     #phto{
-        padding: 50px 0 20px 10px;
-        font-size: 0.8rem;
+        /* padding: 50px 0 20px 10px; */
+        /* font-size: 0.8rem; */
     }
     #robert b{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
     .pic{
         padding: 20px 0;
@@ -757,9 +784,7 @@ ul li{
 
 @media only screen and (max-width:379px) and (min-width:300px){
 
-    #tiger{
-        width: 100%;
-    }
+
     #jenny b, #jenny h6 {
         font-size: 0.65rem;
     }
@@ -767,7 +792,7 @@ ul li{
         font-size: 0.7rem;
     }
     .photo {
-        width: 346px;
+        width: 345px;
     }
     .box-head h5{
         font-size: 1rem;
@@ -784,4 +809,5 @@ ul li{
         padding: 10px 0 0 10px;
     }
 }
+
 
