@@ -791,15 +791,24 @@ ul li{
     #matt ul {
         font-size: 0.7rem;
     }
+    #matt ul li{
+        padding-right: 10px;
+    }
     .photo {
-        width: 345px;
+        width: 290px;
     }
     .box-head h5{
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+    .box-head h6{
+        font-size: 0.6rem;
     }
     #greshy {
-        padding: 50px 100px;
+        padding: 50px 70px;
         text-align: center;
+    }
+    #matt p{
+        display: none;
     }
     #outtline .haze {
         margin-top: 80px;
