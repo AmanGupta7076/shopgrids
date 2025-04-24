@@ -21,7 +21,28 @@ html{
     padding-top: 60px;
     background-size: cover;
 }
-
+#plus {
+    border-left: 1px solid #eee;
+}
+#tiger{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+#maddy{
+    border: 1px solid #eee;
+    padding-bottom: 5px;
+}
+#abcd ul li{
+    border-right: 2px solid #eee !important;
+    padding-right: 10px;
+}
+#abcd input{
+    border: none;
+}
+#efgh{
+    margin-top: 15px !important;
+}
 #hp{
     background-color: #081828;
     color: #888888;
@@ -757,9 +778,7 @@ ul li{
 
 @media only screen and (max-width:379px) and (min-width:300px){
 
-    #tiger{
-        width: 100%;
-    }
+
     #jenny b, #jenny h6 {
         font-size: 0.65rem;
     }
