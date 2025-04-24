@@ -724,7 +724,7 @@ ul li{
     }
     .photo {
         background-position: center;
-        width: 395px;
+        width: 350px;
     }
     /* #phtto {
         width: 260px;
@@ -734,6 +734,12 @@ ul li{
         width: 195px;
         padding: 20px 10px;
         font-size: 0.5rem;
+    }
+    .box-head h5{
+        font-size: 0.8rem;
+    }
+    .box-head h6{
+        font-size: 0.6rem;
     }
     
     #team{
@@ -801,7 +807,7 @@ ul li{
         padding-right: 10px;
     }
     .photo {
-        width: 290px;
+        width: 350px;
     }
     .box-head h5{
         font-size: 0.8rem;
