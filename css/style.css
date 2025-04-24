@@ -709,6 +709,9 @@ ul li{
     #matt ul{
         font-size: 0.9rem;
     }
+    #matt ul li{
+        padding-right: 10px;
+    }
     #matt ul li i{
         margin-right: 5px;
     }
@@ -763,6 +766,9 @@ ul li{
     }
     #mat ul li{
         margin-right: 10px;
+    }
+    #matt p{
+        display: none;
     }
     #mat p{
         margin-right: 10px;
