@@ -398,6 +398,7 @@ ul li{
 }
 #marque img:hover{
     opacity: 1;
+    transition-duration: .5s;
 }
 
 /* eighth section */
@@ -471,10 +472,13 @@ ul li{
     background-color: #fff !important;
     color: #000 !important;
 }
-#kit ul li:hover, #killer ul li:hover{
+#kit ul li a:hover, #kit ul li:hover, #killer ul li:hover{
     color: #0167f3;
     margin-left: 10px;
     transition: .5s;
+}
+#kit ul li a{
+    text-decoration: none;
 }
 #ico ul li:hover, #outtline h6:hover, #sarah b:hover, #mark h5:hover, #defaulter h5:hover, #white a:hover, #camel ul li:hover, #cartt b:hover{
     color: #0167f3;
@@ -570,6 +574,7 @@ ul li{
 
  /* first */
 
+
     .fz{
         display: none;
     }
@@ -596,7 +601,7 @@ ul li{
 /* second */
 
 #killer ul li, #killer h3 {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
 }
 #killer img{
     width: 100%;
@@ -607,7 +612,13 @@ ul li{
 #phto{
     width: 60%;
 }
-
+#phtto{
+    width: 100px;
+}
+.photo{
+    background-position: right;
+    width: 450px;
+}
 /* fifth */
 
 .pic{
@@ -618,6 +629,9 @@ ul li{
 
 #qwerty img{
     width: 100%;
+}
+#outtline h6{
+    font-size: 0.8rem;
 }
 
 /* seventh */
@@ -684,11 +698,19 @@ ul li{
     .photo, .photo-1{
         padding: 0px;
     }
+    .photo {
+        background-position: right;
+        width: 400px;
+    }
+    #phtto {
+        width: 260px;
+        padding: 20px 10px;
+    }
     #team{
         padding: 50px 0;
     }
     #phto{
-        padding: 50px 0 0 0px;
+        padding: 50px 0 20px 10px;
         font-size: 0.8rem;
     }
     #robert b{
@@ -698,7 +720,7 @@ ul li{
         padding: 20px 0;
     }
     #outtline .haze{
-        margin-top: 90px;
+        margin-top: 80px;
     }
     .clas{
         margin-top: 70px;
@@ -724,20 +746,38 @@ ul li{
     #kit .separator_left, #ico .separator_left, #icoo .separator_left{
         margin: 0 auto;
     }
+    #hp{
+        margin-bottom: 50px;
+    }
+    #mosq{
+        padding-left: 15px;
+    }
 }
 
 
 @media only screen and (max-width:379px) and (min-width:300px){
 
+    #tiger{
+        width: 100%;
+    }
     #jenny b, #jenny h6 {
         font-size: 0.65rem;
     }
     #matt ul {
         font-size: 0.7rem;
     }
-
+    .photo {
+        width: 346px;
+    }
+    .box-head h5{
+        font-size: 1rem;
+    }
+    #greshy {
+        padding: 50px 100px;
+        text-align: center;
+    }
     #outtline .haze {
-        margin-top: 55px;
+        margin-top: 80px;
     }
 
     #mat {
