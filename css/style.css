@@ -807,7 +807,7 @@ ul li{
         padding-right: 10px;
     }
     .photo {
-        width: 345px;
+        width: 270px !important;
     }
     .box-head h5{
         font-size: 0.8rem;
@@ -831,4 +831,9 @@ ul li{
     }
 }
 
+/* @media only screen and (max-width:376px){
+    .photo {
+        width: 343px !important;
+    }
+} */
 
